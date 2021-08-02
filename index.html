@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navSection">navbar</nav>
+    <nav class="navSection">
+        <a href="https://github.com/PhilipBrowning/" class="navElements">Github</a>
+        <a href="#" class="navElements">Portfolio</a>
+        <a href="#" class="navElements">Contact</a>
+    </nav>
 
-    <section class="title"><h1>My New Website</h1></section>
+    <section class="title">
+        <h1>My New Website</h1>
+    </section>
 
     <section>
         <div id="hero">
@@ -28,9 +34,21 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     </section>
 
-    <section class="contactMe">Contact Me</section>
+    <section class="contactMe">
+        <h3>Contact Me</h3>
+        <form class="styledForm">
+            <label>Name:</label>
+            <input type="text"></input>
+            <br>
+            <label>Email:</label>
+            <input type="text"</input>
+            <button type="button">Send</button>
+        </form>
 
-    <footer class="footer">footer</footer>
+    </section>
+    <footer class="footer">
+        <p>&#169 2021 My New Website Productions</p>
+    </footer>
 
 </body>
 </html>
